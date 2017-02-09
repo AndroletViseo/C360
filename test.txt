@@ -1,1 +1,8 @@
 hello commnet are you?
+
+louer : 750€
+assurance auto : 100
+EDF : 25€(frais d'inscription) + 40€
+REDbySFR : 10€
+SFR : 35€
+telephone: 200€

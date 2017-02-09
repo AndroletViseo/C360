@@ -33,8 +33,7 @@ public class CollaboratorDAO {
 
     public Collaborator getCollaboratorByLoginPassword(String personnalEmail,String personnalPassword){
         daoFacade.setFlushMode(FlushModeType.COMMIT);
-        Collaborator registredUser =
-                (Collaborator) daoFacade.getSingle(
+        Collaborator registredUser = (Collaborator) daoFacade.getSingle(
                         "select c from Collaborator c where c.email = :personnalEmail and c.password = :personnalPassword",
                         param("personnalEmail",personnalEmail), param("personnalPassword",personnalPassword));
         return registredUser;
